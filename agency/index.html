@@ -18,15 +18,16 @@
     <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 
 	
 	<!-- BODY Font -->
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <!-- REVOLUTION SLIDER -->
+    <link rel="stylesheet" type="text/css" href="js/revolutionslider/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/slider_main.css" media="screen" />
 	
 	
 	
@@ -87,10 +88,83 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+             <div class="tp-banner-container">
+                <div class="tp-banner">
+                
+                    <ul>
+                        <!-- SLIDE 1 -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="800" >
+                        
+                            <!-- MAIN IMAGE -->
+                            <img src="img/header-bg.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+
+                            <div class="tp-caption skewfromtop ltl"
+                                data-x="453" data-hoffset="0"
+                                data-y="80"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="1500"
+                                data-start="4000"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="500"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 3"><img src="img/btop.png" alt="">
+                            </div>
+                            
+                            <div class="tp-caption small_light_white skewfromleft customout"
+                                data-x="470"
+                                data-y="330"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="2700"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6"> 
+
+                                <a href="#" class="button_slider"><i class="fa fa-hand-o-right"></i>&nbsp; Knowledge </a>
+
+                            </div>
+                            
+                            <div class="tp-caption mediumlarge_light_white customin"
+                                data-x="445"
+                                data-y="370"
+                                data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                                data-speed="800"
+                                data-start="2000"
+                                data-easing="Back.easeInOut"
+                                data-endspeed="400"
+                                data-endeasing="Back.easeIn"
+                                style="z-index: 14">
+
+                                <a href="#" class="button_slider"><i class="fa fa-hand-o-right"></i>&nbsp; Experience </a>
+
+                            </div>
+         
+                            <div class="tp-caption large_bold_white skewfromright customout"
+                                data-x="420"
+                                data-y="412"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="1500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6">
+
+                                <a href="#" class="button_slider"><i class="fa fa-hand-o-right"></i>&nbsp; Education </a>
+
+                            </div>
+                             
+                            
+                            
+                        </li>    
+                        
+                    </ul>
+
+                </div>
             </div>
         </div>
     </header>
@@ -230,8 +304,8 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/19.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Mr.Natesh</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <h4>Mr. Natesh</h4>
+                        <p class="text-muted"> Director </p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -327,22 +401,49 @@
                         </li>
                         <li><a href="#">Terms of Use</a>
                         </li>
+                        <li><a href="#"> Designed by K&R </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
 
-    
+     <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script> 
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript">
+
+        var revapi;
+
+        jQuery(document).ready(function() {
+
+               revapi = jQuery('.tp-banner').revolution(
+                {
+                    delay:9000,
+                    startwidth:1170,
+                    startheight:680,
+                    hideThumbs:10,
+                    fullWidth:"on",
+                    forceFullWidth:"on"
+                });
+
+        }); //ready
+
+    </script>
+
+   
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 

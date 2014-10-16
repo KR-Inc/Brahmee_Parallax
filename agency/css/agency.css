@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #333;
 }
 
 a:hover,
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -860,4 +860,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.button_slider{
+    color: #fed136 !important;
 }
